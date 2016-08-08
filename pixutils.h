@@ -13,6 +13,11 @@
 
 #define degreesToRadians(degrees) (degrees * M_PI / 180.0)
 
+#define FIVE_MOST_SIG_BITS 5
+#define SIX_MOST_SIG_BITS 6
+#define FIVE_BIT_MASK 0b11111000
+#define SIX_BIT_MASK 0b11111100
+
 typedef struct rgba{
 	unsigned char r;
 	unsigned char g;
